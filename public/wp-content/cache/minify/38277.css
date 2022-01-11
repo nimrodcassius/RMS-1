@@ -1,0 +1,704 @@
+.elementor-kit-5 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display)
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px
+    }
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    color: var( --e-global-color-primary);
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-image .widget-image-caption {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-text-editor {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: var( --e-global-color-primary)
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+    color: var( --e-global-color-primary);
+    border-color: var( --e-global-color-primary)
+}
+
+.elementor-widget-button .elementor-button {
+    font-family: var( --e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-accent-font-weight);
+    background-color: var( --e-global-color-accent)
+}
+
+.elementor-widget-divider {
+    --divider-color: var( --e-global-color-secondary)
+}
+
+.elementor-widget-divider .elementor-divider__text {
+    color: var( --e-global-color-secondary);
+    font-family: var( --e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-secondary-font-weight)
+}
+
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {
+    background-color: var( --e-global-color-secondary)
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon {
+    color: var( --e-global-color-secondary);
+    border-color: var( --e-global-color-secondary)
+}
+
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon svg {
+    fill: var( --e-global-color-secondary)
+}
+
+.elementor-widget-image-box .elementor-image-box-title {
+    color: var( --e-global-color-primary);
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-image-box .elementor-image-box-description {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-icon.elementor-view-stacked .elementor-icon {
+    background-color: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon {
+    color: var( --e-global-color-primary);
+    border-color: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon.elementor-view-framed .elementor-icon,
+.elementor-widget-icon.elementor-view-default .elementor-icon svg {
+    fill: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+    background-color: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon,
+.elementor-widget-icon-box.elementor-view-default .elementor-icon {
+    fill: var( --e-global-color-primary);
+    color: var( --e-global-color-primary);
+    border-color: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon-box .elementor-icon-box-title {
+    color: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon-box .elementor-icon-box-title,
+.elementor-widget-icon-box .elementor-icon-box-title a {
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-icon-box .elementor-icon-box-description {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-star-rating .elementor-star-rating__title {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-image-gallery .gallery-item .gallery-caption {
+    font-family: var( --e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-accent-font-weight)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
+    border-color: var( --e-global-color-text)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon i {
+    color: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon svg {
+    fill: var( --e-global-color-primary)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-text {
+    color: var( --e-global-color-secondary)
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item,
+.elementor-widget-icon-list .elementor-icon-list-item a {
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-counter .elementor-counter-number-wrapper {
+    color: var( --e-global-color-primary);
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-counter .elementor-counter-title {
+    color: var( --e-global-color-secondary);
+    font-family: var( --e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-secondary-font-weight)
+}
+
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var( --e-global-color-primary)
+}
+
+.elementor-widget-progress .elementor-title {
+    color: var( --e-global-color-primary);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-testimonial .elementor-testimonial-content {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-testimonial .elementor-testimonial-name {
+    color: var( --e-global-color-primary);
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-testimonial .elementor-testimonial-job {
+    color: var( --e-global-color-secondary);
+    font-family: var( --e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-secondary-font-weight)
+}
+
+.elementor-widget-tabs .elementor-tab-title,
+.elementor-widget-tabs .elementor-tab-title a {
+    color: var( --e-global-color-primary)
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active,
+.elementor-widget-tabs .elementor-tab-title.elementor-active a {
+    color: var( --e-global-color-accent)
+}
+
+.elementor-widget-tabs .elementor-tab-title {
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-tabs .elementor-tab-content {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-accordion .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-accordion-title {
+    color: var( --e-global-color-primary)
+}
+
+.elementor-widget-accordion .elementor-active .elementor-accordion-icon,
+.elementor-widget-accordion .elementor-active .elementor-accordion-title {
+    color: var( --e-global-color-accent)
+}
+
+.elementor-widget-accordion .elementor-accordion-title {
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-accordion .elementor-tab-content {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-toggle .elementor-toggle-title,
+.elementor-widget-toggle .elementor-toggle-icon {
+    color: var( --e-global-color-primary)
+}
+
+.elementor-widget-toggle .elementor-tab-title.elementor-active a,
+.elementor-widget-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon {
+    color: var( --e-global-color-accent)
+}
+
+.elementor-widget-toggle .elementor-toggle-title {
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-toggle .elementor-tab-content {
+    color: var( --e-global-color-text);
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-alert .elementor-alert-title {
+    font-family: var( --e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-primary-font-weight)
+}
+
+.elementor-widget-alert .elementor-alert-description {
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-widget-text-path {
+    font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    font-weight: var( --e-global-typography-text-font-weight)
+}
+
+.elementor-518 .elementor-element.elementor-element-128a606 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-386645a>.elementor-element-populated {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-58cffe2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10.8% 0% 10.6%
+}
+
+.elementor-518 .elementor-element.elementor-element-bdee10f>.elementor-element-populated {
+    margin: 0;
+    padding: 0 30px 0 0
+}
+
+.elementor-518 .elementor-element.elementor-element-f04c378>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-f04c378 {
+    width: 264px;
+    max-width: 264px
+}
+
+.elementor-518 .elementor-element.elementor-element-9081bc1>.elementor-element-populated {
+    margin: 0;
+    padding: 0 30px 0 0
+}
+
+.elementor-518 .elementor-element.elementor-element-f9b5c90>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-f9b5c90 {
+    width: 264px;
+    max-width: 264px
+}
+
+.elementor-518 .elementor-element.elementor-element-7462a80>.elementor-element-populated {
+    margin: 0;
+    padding: 0 30px 0 0
+}
+
+.elementor-518 .elementor-element.elementor-element-086d2ec>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-086d2ec {
+    width: 264px;
+    max-width: 264px
+}
+
+.elementor-518 .elementor-element.elementor-element-ec38045>.elementor-element-populated {
+    margin: 0;
+    padding: 0 30px 0 0
+}
+
+.elementor-518 .elementor-element.elementor-element-b19bc6e>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-b19bc6e {
+    width: 264px;
+    max-width: 264px
+}
+
+.elementor-518 .elementor-element.elementor-element-b20901c {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0% 0% 11%
+}
+
+.elementor-518 .elementor-element.elementor-element-519c950>.elementor-element-populated {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-8a6ba5f {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-94565cf>.elementor-element-populated {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-b2fb0c1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 9.5% 0% 4.4%
+}
+
+.elementor-bc-flex-widget .elementor-518 .elementor-element.elementor-element-95717b7.elementor-column .elementor-widget-wrap {
+    align-items: flex-end
+}
+
+.elementor-518 .elementor-element.elementor-element-95717b7.elementor-column.elementor-element[data-element_type=column]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: flex-end;
+    align-items: flex-end
+}
+
+.elementor-518 .elementor-element.elementor-element-95717b7>.elementor-element-populated {
+    margin: 0% -3%;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-be09cf7 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0% 0% 7%
+}
+
+.elementor-bc-flex-widget .elementor-518 .elementor-element.elementor-element-613420d.elementor-column .elementor-widget-wrap {
+    align-items: flex-end
+}
+
+.elementor-518 .elementor-element.elementor-element-613420d.elementor-column.elementor-element[data-element_type=column]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: flex-end;
+    align-items: flex-end
+}
+
+.elementor-518 .elementor-element.elementor-element-613420d>.elementor-element-populated {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-fcd34ad>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-8393aa6:not(.elementor-motion-effects-element-type-background),
+.elementor-518 .elementor-element.elementor-element-8393aa6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url(https://fokkner.qodeinteractive.com/wp-content/uploads/2021/05/h2-img-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.elementor-518 .elementor-element.elementor-element-8393aa6 {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 132px 0 130px
+}
+
+.elementor-518 .elementor-element.elementor-element-8393aa6>.elementor-background-overlay {
+    transition: background .3s, border-radius .3s, opacity .3s
+}
+
+.elementor-bc-flex-widget .elementor-518 .elementor-element.elementor-element-de27dd5.elementor-column .elementor-widget-wrap {
+    align-items: center
+}
+
+.elementor-518 .elementor-element.elementor-element-de27dd5.elementor-column.elementor-element[data-element_type=column]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: center;
+    align-items: center
+}
+
+.elementor-518 .elementor-element.elementor-element-de27dd5>.elementor-element-populated {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-1e0fc86>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-1e0fc86 {
+    width: 655px;
+    max-width: 655px
+}
+
+.elementor-518 .elementor-element.elementor-element-a50e8ab>.elementor-widget-container {
+    margin: 0;
+    padding: 32px 0 0
+}
+
+.elementor-518 .elementor-element.elementor-element-a50e8ab {
+    width: 655px;
+    max-width: 655px
+}
+
+.elementor-518 .elementor-element.elementor-element-fb0697f {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8.3% 0% 4.4%
+}
+
+.elementor-518 .elementor-element.elementor-element-470034b>.elementor-element-populated {
+    margin: 0;
+    padding: 0
+}
+
+.elementor-518 .elementor-element.elementor-element-d7ddaf4>.elementor-widget-container {
+    margin: 0;
+    padding: 0 0 8px
+}
+
+.elementor-518 .elementor-element.elementor-element-8d89086>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-518 .elementor-element.elementor-element-bdee10f {
+        width: 50%
+    }
+    .elementor-518 .elementor-element.elementor-element-9081bc1 {
+        width: 50%
+    }
+    .elementor-518 .elementor-element.elementor-element-7462a80 {
+        width: 50%
+    }
+    .elementor-518 .elementor-element.elementor-element-ec38045 {
+        width: 50%
+    }
+}
+
+@media(max-width:1024px) {
+    .elementor-518 .elementor-element.elementor-element-58cffe2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 150px 0 124px
+    }
+    .elementor-518 .elementor-element.elementor-element-bdee10f>.elementor-element-populated {
+        margin: 0;
+        padding: 0 35px 0 0
+    }
+    .elementor-518 .elementor-element.elementor-element-f04c378 {
+        width: 100%;
+        max-width: 100%
+    }
+    .elementor-518 .elementor-element.elementor-element-9081bc1>.elementor-element-populated {
+        margin: 0;
+        padding: 0 0 0 35px
+    }
+    .elementor-518 .elementor-element.elementor-element-f9b5c90 {
+        width: 100%;
+        max-width: 100%
+    }
+    .elementor-518 .elementor-element.elementor-element-7462a80>.elementor-element-populated {
+        margin: 0;
+        padding: 55px 35px 0 0
+    }
+    .elementor-518 .elementor-element.elementor-element-086d2ec>.elementor-widget-container {
+        margin: 0;
+        padding: 0
+    }
+    .elementor-518 .elementor-element.elementor-element-086d2ec {
+        width: 100%;
+        max-width: 100%
+    }
+    .elementor-518 .elementor-element.elementor-element-ec38045>.elementor-element-populated {
+        margin: 0;
+        padding: 55px 0 0 35px
+    }
+    .elementor-518 .elementor-element.elementor-element-b19bc6e {
+        width: 100%;
+        max-width: 100%
+    }
+    .elementor-518 .elementor-element.elementor-element-b20901c {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 0 150px
+    }
+    .elementor-518 .elementor-element.elementor-element-b2fb0c1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 150px 0 66px
+    }
+    .elementor-518 .elementor-element.elementor-element-95717b7>.elementor-element-populated {
+        margin: 0;
+        padding: 0
+    }
+    .elementor-518 .elementor-element.elementor-element-be09cf7 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 0 94px
+    }
+    .elementor-518 .elementor-element.elementor-element-613420d.elementor-column>.elementor-widget-wrap {
+        justify-content: flex-end
+    }
+    .elementor-518 .elementor-element.elementor-element-613420d>.elementor-element-populated {
+        margin: 0;
+        padding: 0
+    }
+    .elementor-518 .elementor-element.elementor-element-fcd34ad>.elementor-widget-container {
+        margin: 0;
+        padding: 0
+    }
+    .elementor-518 .elementor-element.elementor-element-8393aa6:not(.elementor-motion-effects-element-type-background),
+    .elementor-518 .elementor-element.elementor-element-8393aa6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+    .elementor-518 .elementor-element.elementor-element-8393aa6 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 135px 0 150px
+    }
+    .elementor-518 .elementor-element.elementor-element-1e0fc86 {
+        width: 100%;
+        max-width: 100%
+    }
+    .elementor-518 .elementor-element.elementor-element-a50e8ab {
+        width: 100%;
+        max-width: 100%
+    }
+    .elementor-518 .elementor-element.elementor-element-fb0697f {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 115px 0 70px
+    }
+    .elementor-518 .elementor-element.elementor-element-470034b>.elementor-element-populated {
+        margin: 0;
+        padding: 0
+    }
+    .elementor-518 .elementor-element.elementor-element-8d89086>.elementor-widget-container {
+        margin: 0;
+        padding: 0
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-518 .elementor-element.elementor-element-58cffe2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 130px 0 115px
+    }
+    .elementor-518 .elementor-element.elementor-element-bdee10f>.elementor-element-populated {
+        margin: 0;
+        padding: 0
+    }
+    .elementor-518 .elementor-element.elementor-element-9081bc1>.elementor-element-populated {
+        margin: 0;
+        padding: 58px 0 0
+    }
+    .elementor-518 .elementor-element.elementor-element-7462a80>.elementor-element-populated {
+        margin: 0;
+        padding: 58px 0 0
+    }
+    .elementor-518 .elementor-element.elementor-element-ec38045>.elementor-element-populated {
+        margin: 0;
+        padding: 58px 0 0
+    }
+    .elementor-518 .elementor-element.elementor-element-b20901c {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 0 130px
+    }
+    .elementor-518 .elementor-element.elementor-element-519c950>.elementor-element-populated {
+        margin: 0;
+        padding: 0
+    }
+    .elementor-518 .elementor-element.elementor-element-b2fb0c1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 131px 0 0
+    }
+    .elementor-518 .elementor-element.elementor-element-be09cf7 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 50px 0 74px
+    }
+    .elementor-518 .elementor-element.elementor-element-8393aa6 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 123px 0 130px
+    }
+    .elementor-518 .elementor-element.elementor-element-fb0697f {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 90px 0 69px
+    }
+    .elementor-518 .elementor-element.elementor-element-470034b>.elementor-element-populated {
+        margin: 0;
+        padding: 0
+    }
+}
+
+.zEWidget-webWidget.zEWidget-webWidget--active {
+    z-index: 99999999 !important
+}
