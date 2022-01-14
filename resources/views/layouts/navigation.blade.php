@@ -16,8 +16,9 @@
 
                 <!-- Navigation Links -->
                 <!-- <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"> -->
+
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        <b><i>{{ __('WHISPERS REALTORS') }}</i></b>
+                        <b><img src="{{asset('wp-content/uploads/2021/05/12.png')}}"  alt="User Profile Picture"></img></b>
                     </x-nav-link>
                 <!-- </div> -->
             </div>
@@ -98,31 +99,6 @@
 <div id="left-sidebar" class="sidebar">
     <div class="sidebar-scroll">
         <div class="user-account">
-          <img src="{{asset('../assets/images/WHISPERS LOGO.png')}}"  alt="User Profile Picture"></img>
-
-        <div class="dropdown">
-              <i>  Agent</i>
-                <a href="javascript:void(0);" class=" user-name" ><strong>{{ Auth::user()->name }}</strong></a>
-                <!-- <ul class="dropdown-menu dropdown-menu-right account">
-                    <li><a href="doctor-profile.html"><i class="icon-user"></i>My Profile</a></li>
-                    <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>Messages</a></li>
-                    <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
-                    <li class="divider"></li>
-                    <li>
-                      <form method="POST" action="{{ route('logout') }}">
-                          @csrf
-
-                          <a href="route('logout')"
-                                  onclick="event.preventDefault();
-                                              this.closest('form').submit();">
-                              {{ __('Log Out') }}
-                          </a>
-                      </form>
-                    </li>
-                </ul> -->
-            </div>
-            <hr>
-
         </div>
         <!-- Nav tabs -->
         <ul class="nav nav-tabs">
