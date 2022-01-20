@@ -16,7 +16,7 @@
                         @if (Route::has('login'))
                             <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                 @auth
-                                    <a href="{{ url('/dashboard') }}" class="nav-link w-nav-link">Dashboard</a>
+                                    <a href="{{ url('/dashboard1') }}" class="nav-link w-nav-link">Dashboard</a>
                                 @else
                                     <a href="{{ route('login') }}" class="nav-link w-nav-link">Log in</a>
 
@@ -142,13 +142,13 @@
                     </div>
                     <div class="actions w-container"><a href="/demo-book" class="button button-outline button-transparent w-button">Book 15 min demo</a></div> -->
                 </div>
-                <!-- <div class="home-hero-image-wrapper">
-                  <img src="https://assets.website-files.com/5f308a2a4e2694784fd8c994/615225f4c66790e0c3e16e5d_home_hero_image.png" loading="eager" sizes="(max-width: 991px) 100vw, 874.5px"
-                  srcset="https://assets.website-files.com/5f308a2a4e2694784fd8c994/615225f4c66790e0c3e16e5d_home_hero_image-p-500.png 500w,
-                  https://assets.website-files.com/5f308a2a4e2694784fd8c994/615225f4c66790e0c3e16e5d_home_hero_image-p-800.png 800w,
-                   https://assets.website-files.com/5f308a2a4e2694784fd8c994/615225f4c66790e0c3e16e5d_home_hero_image-p-1080.png 1080w,
-                    https://assets.website-files.com/5f308a2a4e2694784fd8c994/615225f4c66790e0c3e16e5d_home_hero_image-p-1600.png 1600w,
-                    https://assets.website-files.com/5f308a2a4e2694784fd8c994/615225f4c66790e0c3e16e5d_home_hero_image.png 2605w"
+                <div class="home-hero-image-wrapper">
+                  <img src="{{asset ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png')}}" loading="eager" sizes="(max-width: 991px) 100vw, 874.5px"
+                  srcset="('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 500w'),
+                  ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 800w') ,
+                   ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 1080w') ,
+                    ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 1600w') ,
+                    ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 2605w') "
                         alt="" class="home-hero-image" />
                     <div class="w-embed">
                         <style>
@@ -167,13 +167,13 @@
                             }
                         </style>
 
-                        <div class="home-hero-app-video-container">
+                        <!-- <div class="home-hero-app-video-container">
                             <video autoplay muted playsinline loop class="home-hero-app-video">
 		<source src="https://drive.google.com/uc?export=view&id=1ug4ifMrqbGC_4O13Bz_H5JTJxxn0P4dB" type="video/mp4">
 	</video>
-                        </div>
+                        </div> -->
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
@@ -215,7 +215,7 @@
                 <div class="home-feature-section-copu">
                     <h4><strong class="bold-text-2">Resident mobile application</strong></h4>
                     <h1><strong class="bold-text">A mobile app residents are excited to use</strong></h1>
-                    <p>Sugar’s resident mobile application is an all-in-one solution to make apartment living better than ever. Residents can pay rent, unlock doors, share keys, interact with neighbors and more.</p>
+                    <p>Whispers resident mobile application is an all-in-one solution to make apartment living better than ever. Residents can pay rent, unlock doors, share keys, interact with neighbors and more.</p>
                     <div class="actions w-container"><a href="/demo" class="button button-outline w-button">Explore the resident app</a></div>
                     <div class="home-feature-section-feature-outline">
                         <div class="home-feature-outline-block"><img src="https://assets.website-files.com/5f308a2a4e2694784fd8c994/6125840a117b59a90b77e587_home_feature_icon_marketplace.svg" loading="lazy" width="24" height="24" alt="" />

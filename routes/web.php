@@ -19,35 +19,38 @@ Route::get('', function () {
 Route::get('/home1', function () {
     return view('home1');
 });
-Route::get('/Idea2', function () {
-    return view('Idea2');
+Route::get('/dashboard1', function () {
+    return view('dashboard1');
 });
+Route::get('/propertiesgrid', function () {
+    return view('propertiesgrid');
+});
+Route::get('/dashboard1', function () {
+    return view('dashboard1');
+})->middleware(['auth'])->name('dashboard1');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
 
-Route::resource ('housetype', 'App\Http\Controllers\HousetypeController');
-Route::resource ('houses','App\Http\Controllers\HousesController');
-Route::resource ('tenants', 'App\Http\Controllers\TenantsController');
-Route::resource ('payments', 'App\Http\Controllers\PaymentsController');
+Route::resource ('houses1','App\Http\Controllers\Houses1Controller');
+Route::resource ('payments1', 'App\Http\Controllers\Payments1Controller');
 Route::resource ('invoice', 'App\Http\Controllers\InvoiceController');
+Route::resource ('tenants1', 'App\Http\Controllers\Tenants1Controller');
+Route::resource ('properties', 'App\Http\Controllers\PropertiesController');
 
-Route::get ('housetype', function (){
-  $plain = \DB::table ('housetype',)->get();
-  return view ('housetype', ['plain' =>$plain]);
+Route::get ('properties', function (){
+  $plain = \DB::table ('properties',)->get();
+  return view ('properties', ['plain' =>$plain]);
 });
-Route::get ('houses', function (){
-  $apartment = \DB::table ('houses',)->get();
-  return view ('houses', ['apartment' =>$apartment]);
+Route::get ('houses1', function (){
+  $apartment = \DB::table ('houses1',)->get();
+  return view ('houses1', ['apartment' =>$apartment]);
 });
-Route::get ('tenants', function (){
-  $whispers = \DB::table ('tenants',)->get();
-  return view ('tenants', ['whispers' =>$whispers]);
+Route::get ('tenants1', function (){
+  $whispers = \DB::table ('tenants1',)->get();
+  return view ('tenants1', ['whispers' =>$whispers]);
 });
-Route::get ('payments', function (){
-  $cash = \DB::table ('payments',)->get();
-  return view ('payments', ['cash' =>$cash]);
+Route::get ('payments1', function (){
+  $cash = \DB::table ('payments1',)->get();
+  return view ('payments1', ['cash' =>$cash]);
 });
 
 require __DIR__.'/auth.php';

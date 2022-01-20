@@ -46,7 +46,7 @@
     <!-- Default input -->
     <div class="form-group col-sm-4">
       <input mdbInput type="text" class="form-control" name="HouseNo" id="HouseNo" placeholder="House No">
-    </div>
+  </div>
     <!-- Default input -->
     <div class="form-group col-sm-4">
       <input mdbInput type="text" class="form-control" name="TenantName" id="TenantName" placeholder="Tenant Name">
