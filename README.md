@@ -91,17 +91,17 @@ Can be achieved through:
 git clone https://github.com/FrankArisah/RMS.git
 2. cd into your project
 3.  Install Composer Dependencies
- composer install
+ :composer install
 4. Install NPM 
-npm install
+:npm install
 5. Create a copy of .env file
-php artisan key:generate
+:php artisan key:generate
 6. Create an empty database for our application
 7.  In the .env file, add database information to allow Laravel to connect to the database
 8.  Migrate the database
-php artisan migrate
+:php artisan migrate
 9. Seed the database
-php artisan db:seed
+:php artisan db:seed
 
 
 
