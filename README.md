@@ -86,9 +86,22 @@ Can be achieved through:
 
 
 <!-- GETTING STARTED -->
-## Get in touch for project
-You can get intouch to view the project
-Frankarisah@gmail.com
+## Set up project 
+1. Clone GitHub repo for this project locally
+git clone https://github.com/FrankArisah/RMS.git
+2. cd into your project
+3.  Install Composer Dependencies
+ composer install
+4. Install NPM 
+npm install
+5. Create a copy of .env file
+php artisan key:generate
+6. Create an empty database for our application
+7.  In the .env file, add database information to allow Laravel to connect to the database
+8.  Migrate the database
+php artisan migrate
+9. Seed the database
+php artisan db:seed
 
 
 
@@ -99,8 +112,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
