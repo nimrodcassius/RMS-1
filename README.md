@@ -104,9 +104,9 @@ Can be achieved through:
    ```
 
 5. Create a copy of .env file
-    ```sh
+  ```sh
    php artisan key:generate
-   ```
+  ```
 6. Create an empty database for our application
 
 7.  In the .env file, add database information to allow Laravel to connect to the database
