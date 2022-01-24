@@ -56,7 +56,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+![screenshot1](https://user-images.githubusercontent.com/50199693/150371055-205d8659-4cc5-4460-a63f-5875c0678c49.png)
+
+
 
 This project entails achieving interaction between Property Managers/Landlords and Tenants on a property management platform. It has a website, property managers portal and a residents application. It also seeks to achieve getting tenant lease renewals through good reviews of apartment complex thus expanding property value and maintaining rental income.
 
@@ -83,10 +86,39 @@ Can be achieved through:
 
 
 <!-- GETTING STARTED -->
-## Get in touch for project
-You can get intouch to view the project
-Frankarisah@gmail.com
+## Set up project 
+1.  Clone the repo
+   ```sh
+   git clone https://github.com/FrankArisah/RMS.git
+   ```
+   
+2. cd into your project
 
+3.  Install Composer Dependencies
+ ```sh
+   composer install
+   ```
+4. Install NPM 
+ ```sh
+   npm install
+   ```
+
+5. Create a copy of .env file
+  ```sh
+   php artisan key:generate
+  ```
+6. Create an empty database for our application
+
+7.  In the .env file, add database information to allow Laravel to connect to the database
+
+8.  Migrate the database
+ ```sh
+   php artisan migrate
+   ```
+9. Seed the database
+ ```sh
+   php artisan db:seed
+   ```
 
 
 <!-- LICENSE -->
@@ -96,34 +128,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -141,4 +145,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: assets1/images/screenshot1.png
+[product-screenshot]:(https://github.com/FrankArisah/RMS/public/assets1/images/screenshot1.png?raw=true)
