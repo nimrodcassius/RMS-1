@@ -25,6 +25,9 @@ Route::get('/dashboard1', function () {
 Route::get('/propertiesgrid', function () {
     return view('propertiesgrid');
 });
+Route::get('/events', function () {
+    return view('events');
+});
 Route::get('/dashboard1', function () {
     return view('dashboard1');
 })->middleware(['auth'])->name('dashboard1');
@@ -35,6 +38,7 @@ Route::resource ('payments1', 'App\Http\Controllers\Payments1Controller');
 Route::resource ('invoice', 'App\Http\Controllers\InvoiceController');
 Route::resource ('tenants1', 'App\Http\Controllers\Tenants1Controller');
 Route::resource ('properties', 'App\Http\Controllers\PropertiesController');
+Route::resource ('analytics', 'App\Http\Controllers\AnalyticsController');
 
 Route::get ('properties', function (){
   $plain = \DB::table ('properties',)->get();
@@ -52,5 +56,8 @@ Route::get ('payments1', function (){
   $cash = \DB::table ('payments1',)->get();
   return view ('payments1', ['cash' =>$cash]);
 });
-
+Route::get ('analytics', function (){
+  $scar = \DB::table ('analytics',)->get();
+  return view ('analytics', ['scar' =>$scar]);
+});
 require __DIR__.'/auth.php';

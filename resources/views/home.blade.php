@@ -143,12 +143,12 @@
                     <div class="actions w-container"><a href="/demo-book" class="button button-outline button-transparent w-button">Book 15 min demo</a></div> -->
                 </div>
                 <div class="home-hero-image-wrapper">
-                  <img src="{{asset ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png')}}" loading="eager" sizes="(max-width: 991px) 100vw, 874.5px"
-                  srcset="('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 500w'),
-                  ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 800w') ,
-                   ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 1080w') ,
-                    ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 1600w') ,
-                    ('assets.website-files.com/5f308a2a4e2694784fd8c994/homeimage.png 2605w') "
+                  <img src="{{asset ('assets1/images/screenshot1.png')}}" loading="eager" sizes="(max-width: 991px) 100vw, 874.5px"
+                  srcset="('assets1/images/screenshot1.png 500w'),
+                  ('assets1/images/screenshot1.png 800w') ,
+                   ('assets1/images/screenshot1.png 1080w') ,
+                    ('assets1/images/screenshot1.png 1600w') ,
+                    ('assets1/images/screenshot1.png 2605w') "
                         alt="" class="home-hero-image" />
                     <div class="w-embed">
                         <style>

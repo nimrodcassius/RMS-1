@@ -53,10 +53,6 @@
               </a>
           </div>
 
-          <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
-              <i class="fa fa-fw fa-bars"></i>
-          </button>
-
           <!-- App Search-->
           <form class="app-search d-none d-lg-block">
               <div class="position-relative">
@@ -105,10 +101,7 @@
               </button>
               <div class="dropdown-menu dropdown-menu-end">
                   <!-- item-->
-                  <a class="dropdown-item" href="apps-contacts-profile"><i
-                          class="mdi mdi-face-profile font-size-16 align-middle me-1"></i> Profile</a>
-                  <a class="dropdown-item" href="auth-lock-screen"><i
-                          class="mdi mdi-lock font-size-16 align-middle me-1"></i> Lock screen</a>
+              
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item text-danger" href="javascript:void();"
                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i
@@ -132,33 +125,27 @@
         <!--- Sidemenu -->
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
-            <ul class="metismenu list-unstyled" id="side-menu">
-                <li class="menu-title" data-key="t-menu">Menu</li>
+            <div>
+                <ul class="nav nav-pills">
 
-                <li>
-                    <a href="{{url ('/dashboard1')}}">
-                        <i class="fas fa-home"></i>
-                        <span data-key="t-dashboard">Dashboard</span>
-                    </a>
-                    <a href="{{url ('/properties')}}">
-                        <i data-feather="home"></i>
-                        <span data-key="t-dashboard">Properties</span>
-                    </a>
-                    <a href="{{url ('/dashboard1')}}">
-                        <i data-feather="home"></i>
-                        <span data-key="t-dashboard">Analytics</span>
-                    </a>
-                    <a href="{{url ('/dashboard1')}}">
-                        <i data-feather="home"></i>
-                        <span data-key="t-dashboard">Residents</span>
-                    </a>
-                    <a href="{{url ('/dashboard1')}}">
-                        <i data-feather="home"></i>
-                        <span data-key="t-dashboard">Events</span>
-                    </a>
-                </li>
-
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url ('dashboard1')}}" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Grid"><i class="bx bx-home"></i>Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url ('properties')}}" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Grid"><i class="bx bx-building-house"></i>Properties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url ('analytics')}}" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Grid"><i class="bx bx-grid-alt"></i>Analytics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url ('events')}}" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Grid"><i class="bx bx-calendar-event"></i>Events</a>
+                    </li>
+                </ul>
+            </div>
 
             <div class="card sidebar-alert border-0 text-center mx-4 mb-0 mt-5">
                 <div class="card-body">
@@ -212,9 +199,14 @@
 
    <!-- init js -->
    <script src="{{asset ('assets1/js/pages/datatable-pages.init.js')}}"></script>
+   <script src="{{asset ('assets1/libs/table-edits/table-edits.min.js')}}"></script>
 
-  <script src="{{asset ('assets1/libs/jszip/jszip.min.js')}}"></script>
-      <script src="{{asset ('assets1/libs/pdfmake/pdfmake.min.js')}}"></script>
+    <script src="{{asset ('assets1/js/pages/table-editable.int.js')}}"></script>
+    <script src="{{asset ('assets1/js/main.js')}}"></script>
+
+<!-- Calendar init -->
+<script src="{{asset ('assets1/js/pages/calendar.init.js')}}"></script>
+
 
 
 </body>
