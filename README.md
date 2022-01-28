@@ -56,8 +56,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+## LANDING PAGE
+![landing page](https://user-images.githubusercontent.com/50199693/151509335-8039dfaa-7c27-49f3-b389-a0812cff0139.png)
 
+## DASHBOARD PAGE
 ![screenshot1](https://user-images.githubusercontent.com/50199693/150371055-205d8659-4cc5-4460-a63f-5875c0678c49.png)
+
 
 
 
